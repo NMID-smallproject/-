@@ -1,0 +1,119 @@
+body {
+	line-height: 1.5;
+	background-color: #f4f7ed;
+	font-family: Microsoft YaHei;
+}
+.sign-page {
+	margin: 110px auto 40px;	
+	width: 960px;
+	height: 500px;
+
+}
+.head {
+	width: 100%;
+	background-color: #00425c;
+	height: 40px;
+	border-radius: 10px;
+	color: #fbfcfe;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.form {
+	margin: 20px auto 40px;
+	width: 380px;
+	height: 394px;
+}
+.span-div {
+	padding-top: 20px;
+	width: 360px;
+	height: 40px;
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+#sign-in-title-left {
+	height: 20px;
+	float: left;
+	vertical-align: center;
+	cursor: pointer;
+
+}
+#sign-in-title-right {
+	height: 20px;
+	float: right;
+	vertical-align: center;
+	cursor: pointer;
+}
+.sign-form {
+	height: 244px;
+	margin-top: 50px;
+	padding-bottom: 20px;
+    background-color: white;
+    border-radius: 10px;
+}
+#name {
+	height: 40px;
+	width: 320px;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 6px 8px;
+	font-size: 18px;
+	border-radius: 4px;
+	border: 1px solid #aaa;
+}
+#password {
+	height: 40px;
+	width: 320px;
+	margin-top: 20px;
+	margin-left: 10px;
+	padding: 6px 8px;
+	font-size: 18px;
+	border-radius: 4px;
+	border: 1px solid #aaa;
+}
+.desc {
+	height: 15px;
+	font-size: 12px;
+    color: #999;
+    background-color: yellow;
+}
+.form-buttons {
+	width: 340px;
+	height: 40px;
+	margin-left: 10px;
+	margin-top: 20px;
+
+}
+#btn-signin {
+	width: 340px;
+	height: 40px;
+	border-radius: 4px;
+	border: 1px solid #aaa;
+	font-size: 18px;
+	background-color: #4586ba;
+}
+#btn-signin a {
+	text-decoration:none;
+	color: white;
+}
+.desc-text {
+	height: 20px;
+	margin-top: 10px;
+}
+#sign-up a {
+	text-decoration:none;
+	float: left;
+	margin-left: 10px;
+	color: black;
+}
+#see a {
+	text-decoration:none;
+	float: right;
+	margin-right: 10px;
+	color: black;
+}
+.clickClass {
+	font-size: 20px;
+	color: #4d9bb1;
+}

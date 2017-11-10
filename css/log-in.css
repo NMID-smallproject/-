@@ -7,8 +7,8 @@ body {
 	background-color: #f4f7ed;
 	font-family: Microsoft YaHei;
 }
-.sign-page {
-	margin: 110px auto 40px;	
+.log-page {
+	margin: 80px auto 40px;	
 	width: 960px;
 	height: 500px;
 
@@ -24,9 +24,10 @@ body {
 	padding-left: 10px;
 }
 .form {
-	margin: 20px auto 40px;
-	width: 380px;
-	height: 394px;
+	margin: 40px auto 40px;
+	width: 400px;
+	height: 480px;
+
 }
 .span-div {
 	padding-top: 20px;
@@ -35,23 +36,25 @@ body {
 	padding-right: 20px;
 	padding-left: 20px;
 
+
 }
-#sign-in-title-left {
+#log-in-title-left {
 	height: 20px;
 	float: left;
 	vertical-align: center;
 	cursor: pointer;
 
+
 }
-#sign-in-title-right {
+#log-in-title-right {
 	height: 20px;
 	float: right;
 	vertical-align: center;
 	cursor: pointer;
 }
-.sign-form {
-	height: 244px;
-	margin-top: 50px;
+.log-form {
+	height: 304px;
+	margin-top: 60px;
 	padding-bottom: 20px;
     background-color: white;
     border-radius: 10px;

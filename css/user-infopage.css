@@ -1,0 +1,128 @@
+* {
+	padding: 0;
+	margin: 0;
+	font-family: Microsoft YaHei;
+}
+body {
+	line-height: 1.5;
+	background-color: #f4f7ed;
+}
+.head {
+	width: 100%;
+	background-color: #00425c;
+	height: 40px;
+	border-radius: 10px;
+	color: #fbfcfe;
+	font-size: 20px;
+	padding-top: 10px;
+	padding-left: 10px;
+}
+#title {
+	margin-left: 20px;
+}
+#user-frontpage,#question {
+
+	margin-left: 40px;
+}
+#sign-in {
+	float: right;
+	padding-right: 40px;
+}
+#title,#question a,#sign-in a,#log-in a,#user-frontpage a {
+	text-decoration: none;
+	font-size: 20px;
+	color: white;
+}
+#search {
+	border-radius: 4px;
+	border: 1px solid #aaa;
+	width: 220px;
+	height: 30px;
+	margin-left: 400px;
+	font-family: Microsoft YaHei;
+	font-size: 15px;
+}
+#search-submit {
+	height: 30px;
+	width: 60px;
+	background-color: white;
+	border-radius: 4px;
+	border: 1px solid #aaa;
+	margin-left: 20px;
+
+}
+#search-submit a {
+	text-decoration:none;
+	font-size: 20px;
+	font-family: Microsoft YaHei;
+	color: black;
+}
+.person-info {
+	margin: 20px 150px 0 150px;
+	background-color: white;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+	height: 250px;
+	margin-bottom: 50px;
+}
+.person-info span {
+	display: block;
+}
+.person-photo {
+	margin-bottom: 0px;
+	margin-right: 0px;
+	width: 180px;
+	float: left;
+	margin-top: 70px;
+}
+.person-info-more {
+	float: left;
+	margin-left: 70px;
+	margin-top: 80px;
+}
+#person-photo-more {
+	width: 180px;
+	height:180px;
+}
+#editor {
+	width: 100px;
+	height: 30px;
+	background-color: white;
+	float: right;
+	margin-right: 20px;
+	margin-top: 180px;
+	border-radius: 4px;
+	border: 1px solid #aaa;
+	color: #4586ba;
+	font-size: 15px;
+	cursor: pointer;
+}
+#editor:hover {
+	background-color: #C9E3E2;
+}
+.message  {
+	margin: 20px 150px 0 150px;
+	background-color: white;
+}
+
+.message span,.message-more {
+	margin-right: 60px;
+	margin-left: 40px;
+}
+.message span {
+	font-size: 18px;
+	cursor: pointer;
+}
+.message-more {
+	font-size: 16px;
+}
+#info-hr {
+	width: 40px;
+	height: 1px;
+	display: inline;
+	float: left;
+	margin-right: 100px;
+	background-color:  #00425c;
+}
+.clickClass {
+	color: red;
+}

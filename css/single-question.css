@@ -57,11 +57,17 @@ body {
 	font-family: Microsoft YaHei;
 	color: black;
 }
-.tag {
-	margin: 15px 150px 0 100px;
+.single-tag {
+	float: left;
+	display: block;
 	height: 40px;
 }
-.tag span {
+.question-info {
+	height: 90px;
+	background-color: white;
+	padding-top: 10px;
+}
+.single-tag span,.question-info span {
 	display: inline-block;
 	color: white;
 	height: 30px;
@@ -69,16 +75,22 @@ body {
 	line-height: 30px;
 	text-align: center;
 	background-color: #4586ba;
-	margin-left: 50px;
+	margin-left: 10px;
 	border-radius: 10px;
 	border: 1px solid #aaa;
 	cursor: pointer;
 }
-.single-content {
+.question-info span {
+	float: right;
+	margin-right: 10px;
+	margin-bottom: 0px;
+}
+.single-content,.question-info {
 	margin: 20px 150px 0 150px;
 	background-color: white;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
+
 .content-question,.authorinfo,.actions{
 	padding-top: 10px;
 	padding-left: 20px;
@@ -90,7 +102,6 @@ body {
 }
 .content-question {
 	font-size: 20px;
-	cursor: pointer;
 }
 .authorinfo {
 	font-size: 18px;

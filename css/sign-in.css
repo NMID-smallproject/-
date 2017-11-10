@@ -1,3 +1,7 @@
+* {
+	padding: 0;
+	margin: 0;
+}
 body {
 	line-height: 1.5;
 	background-color: #f4f7ed;
@@ -58,7 +62,7 @@ body {
 	background-color: #4d9bb1;
 	border-radius: 400px;
 	height: 1px;
-	display: none;
+
 }
 #underline-right {
 	float: right;

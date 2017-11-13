@@ -93,7 +93,7 @@ body {
 	font-size: 15px;
 	padding-left: 80px;
 }
-#editor {
+#guanzhu-user {
 	width: 100px;
 	height: 30px;
 	background-color: white;
@@ -106,7 +106,7 @@ body {
 	font-size: 15px;
 	cursor: pointer;
 }
-#editor:hover {
+#guanzhu-user:hover {
 	background-color: #C9E3E2;
 }
 .message {

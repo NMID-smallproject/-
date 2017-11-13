@@ -1,14 +1,16 @@
 * {
 	padding: 0;
 	margin: 0;
+	font-family: Microsoft YaHei;
 }
+
 body {
 	line-height: 1.5;
 	background-color: #f4f7ed;
 	font-family: Microsoft YaHei;
 }
 .head {
-	width: 100%;
+	min-width: 1280px;
 	background-color: #00425c;
 	height: 40px;
 	border-radius: 10px;
@@ -54,21 +56,23 @@ body {
 #search-submit a {
 	text-decoration:none;
 	font-size: 20px;
-	font-family: Microsoft YaHei;
 	color: black;
 }
-.single-tag {
+#answer a ,#guanzhu a,#jubao a ,#submit-span a{
+	text-decoration:none;
+	color: white;
+}
+.tag {
 	float: left;
-	display: block;
 	height: 40px;
 }
 .question-info {
-	height: 90px;
+	height: 120px;
 	background-color: white;
 	padding-top: 10px;
 }
-.single-tag span,.question-info span {
-	display: inline-block;
+.tag span,.question-info span,#submit-span {
+
 	color: white;
 	height: 30px;
 	width: 80px;
@@ -76,21 +80,29 @@ body {
 	text-align: center;
 	background-color: #4586ba;
 	margin-left: 10px;
-	border-radius: 10px;
-	border: 1px solid #aaa;
 	cursor: pointer;
 }
-.question-info span {
+.tag span,.question-info span {
+	border-radius: 10px;
+	border: 1px solid #aaa;
+}
+.question-info span,#submit-span {
+	display: inline-block;
 	float: right;
 	margin-right: 10px;
 	margin-bottom: 0px;
 }
-.single-content,.question-info {
+.single-content,.question-info,.answer-div {
 	margin: 20px 150px 0 150px;
 	background-color: white;
 	box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 
+.content-question {
+	margin-top: 30px;
+	display: block;
+	font-size: 20px;
+}
 .content-question,.authorinfo,.actions{
 	padding-top: 10px;
 	padding-left: 20px;
@@ -99,9 +111,6 @@ body {
 .content-answer {
 	padding-left: 20px;
 	padding-right: 20px;
-}
-.content-question {
-	font-size: 20px;
 }
 .authorinfo {
 	font-size: 18px;
@@ -116,6 +125,10 @@ body {
 	width: 60px;
 	height: 24px;
 	cursor: pointer;
+}
+#user-id a {
+	text-decoration:none;
+	color: black;
 }
 .actions img {
 	width: 35px;
@@ -135,4 +148,33 @@ body {
 }
 #down {
 	margin-left: 10px;
+}
+.answer-div{
+	height: 230px;
+	margin-bottom: 20px;
+}
+.answer-div a {
+	text-decoration:none;
+	color: black;
+}
+.answer-authorinfo {
+	height: 50px;
+	font-size: 18px;
+}
+#answer-touxiang-img {
+	width: 38px;
+	height:38px;
+	margin-top: 6px;
+	margin-left: 10px;
+	border-radius: 4px;
+}
+#answer-id {
+	margin-left: 6px;
+	display: inline-block;
+}
+.fuwenben {
+	height: 140px;
+}
+.submit {
+	height: 30px;
 }

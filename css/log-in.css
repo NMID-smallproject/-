@@ -116,6 +116,8 @@ body {
 	border: 1px solid #aaa;
 	font-size: 18px;
 	background-color: #4586ba;
+	text-align: center;
+	line-height: 40px;
 }
 #btn-signin a {
 	text-decoration:none;

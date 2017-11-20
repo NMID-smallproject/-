@@ -143,3 +143,41 @@ body {
 #down {
 	margin-left: 10px;
 }
+
+.paper {
+	width: 510px;
+	height: 40px;
+	margin: 50px auto;
+}
+.paper a {
+	text-decoration: none;
+	padding: 5px;
+}
+.pages {
+	display: none;
+}
+.pages-list ul {
+	display: inline-block;
+}
+.pages-list ul li {
+	border: 1px solid #e5e5e5;
+	width: 25px;
+	height: 25px;
+	list-style-type: none;
+	display: inline-block;
+}
+.page-input {
+	margin-left: 30px;
+	font-size: 13px;
+}
+.page-input input {
+	width: 18px;
+	height: 15px;
+	margin: 3px;
+}
+.onclickpage {
+	color: #d13030;
+}
+.sure {
+    border: 1px solid #e5e5e5;
+}

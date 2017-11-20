@@ -8,10 +8,10 @@
 <body>
 	<div class="head">
 		<span id="title">重邮问答</span>
-		<span id="youke-frontpage"><a href="##">首页</a></span>
-		<span id="question"><a href="./question.html" target="_blank">提问</a></span>
+		<span id="youke-frontpage"><a href="./user-front.html">首页</a></span>
+		<span id="question"><a href="./question.html">提问</a></span>
 		<input type="text" id="search" placeholder="搜索你感兴趣的内容">
-		<button id="search-submit" ><a href="" target="_blank">搜索</a></button>
+		<button id="search-submit" >搜索</button>
 		<span id="sign-in"><a href="./user-infopage.html" >个人主页</a></span>
 		<span id="log-in"><a href="./sign-in.html" >退出登录</a></span>
 	</div>
@@ -22,23 +22,27 @@
 		<span>实习</span>
 	</div>
 	<div class="content">
-		<div class="single-content">
-			<div class="content-question"><a href="./single-question-user.html">为什么重邮在山上？</a></div>
-			<div class="authorinfo">
-				<span><a href="./other-user-infopage.html"><img src="../images/头像.png" id="photo"></a></span>
-				<span id="user-id"><a href="./other-user-infopage.html">用户一</a></span>
-			</div>
-			<div class="content-answer">因为重邮呵呵哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</div>
-			<div class="actions">
-				<button id="up">
-					<img src="../images/up.png">
-					25
-				</button>
-				<button id="down"><img src="../images/down.png"></button>
-			</div>
-		</div>
+		
 	</div>
+	<!--分页栏开始-->
+	<div id='div'>
+		<ul id='ul'>
+			<li>首页</li>
+			<li>上一页</li>
+			<li class="page"></li>
+			<li class="page"></li>
+			<li class="page"></li>
+			<li>下一页</li>
+			<li>尾页</li>
+		</ul>
+		<input type="type" id="type">
+		<input type="button" value="跳转" id="btn">
+	</div>
+
 	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/getLocalStorage.js"></script>
 	<script type="text/javascript" src="../js/frontpage.js"></script>
+	<script type="text/javascript" src="../js/fenye.js"></script>
+	<script type="text/javascript" src="../js/dianzan.js"></script><!--江燕 引用点赞js-->
 </body>
 </html>

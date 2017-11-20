@@ -6,15 +6,18 @@
 	<title>single-question-user</title>
 </head>
 <body>
+	<!--顶栏开始-->
 	<div class="head">
 		<span id="title">重邮问答</span>
 		<span id="youke-frontpage"><a href="##">首页</a></span>
-		<span id="question"><a href="./question.html" target="_blank">提问</a></span>
+		<span id="question"><a href="./question.html">提问</a></span>
 		<input type="text" id="search" placeholder="搜索你感兴趣的内容">
 		<button id="search-submit" ><a href="">搜索</a></button>
 		<span id="sign-in"><a href="./user-infopage.html">个人主页</a></span>
 		<span id="log-in"><a href="./sign-in.html">退出登录</a></span>
 	</div>
+	<!--顶栏结束-->
+	<!--问题信息开始-->
 	<div class="question-info">
 		<div class="tag">
 		<span id="single-tag">生活</span>
@@ -24,13 +27,21 @@
 		<span id="gunazhu">关注问题</span>
 		<span id="answer"><a href="#answer-div">写回答</a></span>
 	</div>
+	<!--问题信息结束-->
+	<!--当前页所有回答内容开始-->
 	<div class="content">
+		<!--单个回答内容开始-->
 		<div class="single-content">
+			<!--回答者信息开始-->
 			<div class="authorinfo">
 				<span><a href="./other-user-infopage.html"><img src="../images/头像.png" id="photo"></a></span>
 				<span id="user-id"><a href="./other-user-infopage.html">用户一</a></span>
 			</div>
+			<!--回答者信息结束-->
+			<!--回答者回答内容开始-->
 			<div class="content-answer">因为重邮呵呵哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈呵呵哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</div>
+			<!--回答者回答内容结束-->
+			<!--点赞button开始-->
 			<div class="actions">
 				<button id="up">
 					<img src="../images/up.png">
@@ -38,149 +49,139 @@
 				</button>
 				<button id="down"><img src="../images/down.png"></button>
 			</div>
+			<!--点赞button结束-->
 		</div>
+		<!--单个回答内容结束-->
 	</div>
-	
-	<div class="answer-div" style="width: 1049px;">
-		<a name="answer-div"></a>
-		<div class="answer-authorinfo">
-			<span><a href="./user-infopage.html"><img src="../images/头像.png" id="answer-touxiang-img"></a></span>
-			<span id="answer-id"><a href="./user-infopage.html">用户名</a></span>
+	<!--当前页所有回答内容结束-->
+	<!--回答div开始-->
+		<div class="answer-div"  style="width: 974px;">
+				<!--当前用户信息开始-->
+				<div class="answer-authorinfo">
+					<span><a href="./user-infopage.html"><img src="../images/头像.png" id="answer-touxiang-img"></a></span>
+					<span id="answer-id"<a href="./user-infopage.html">用户名</a></span>
+				</div>
+				<!--当前用户信息开始-->
+				<!--富文本开始-->
+				<script id="editor" type="text/plain" style="width: 974px; height: 100px;"></script>
+				<!--富文本结束-->
 		</div>
-		<div>
-			<script id="editor" type="text/plain" style="width:100%;height: 100px;"> 
-			</script>
-		</div>
-	</div>
-	<button id="submit" style="
-	float: right;
-	margin-bottom: 10px;
-	color: white;
-	margin-right: 150px;
-	margin-top: 20px;
-	height: 30px;
-	width: 90px;
-	line-height: 30px;
-	text-align: center;
-	background-color: #0D79D1;
-	border-radius: 4px;
-	border: 1px solid #aaa;
-	cursor: pointer;">发布回答
-</button>
-<script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
-<script type="text/javascript" charset="utf-8" src="ueditor.all.min.js"> </script>
-<script type="text/javascript" charset="utf-8" src="lang/zh-cn/zh-cn.js"></script>
-<script type="text/javascript">
-	var ue = UE.getEditor('editor');
-	function isFocus(e){
-		alert(UE.getEditor('editor').isFocus());
-		UE.dom.domUtils.preventDefault(e)
-	}
-	function setblur(e){
-		UE.getEditor('editor').blur();
-		UE.dom.domUtils.preventDefault(e)
-	}
-	function insertHtml() {
-		var value = prompt('插入html代码', '');
-		UE.getEditor('editor').execCommand('insertHtml', value)
-	}
-	function createEditor() {
-		enableBtn();
-		UE.getEditor('editor');
-	}
-	function getAllHtml() {
-		alert(UE.getEditor('editor').getAllHtml())
-	}
-	function getContent() {
-		var arr = [];
-		arr.push("使用editor.getContent()方法可以获得编辑器的内容");
-		arr.push("内容为：");
-		arr.push(UE.getEditor('editor').getContent());
-		alert(arr.join("\n"));
-	}
-	function getPlainTxt() {
-		var arr = [];
-		arr.push("使用editor.getPlainTxt()方法可以获得编辑器的带格式的纯文本内容");
-		arr.push("内容为：");
-		arr.push(UE.getEditor('editor').getPlainTxt());
-		alert(arr.join('\n'))
-	}
-	function setContent(isAppendTo) {
-		var arr = [];
-		arr.push("使用editor.setContent('欢迎使用ueditor')方法可以设置编辑器的内容");
-		UE.getEditor('editor').setContent('欢迎使用ueditor', isAppendTo);
-		alert(arr.join("\n"));
-	}
-	function setDisabled() {
-		UE.getEditor('editor').setDisabled('fullscreen');
-		disableBtn("enable");
-	}
-
-	function setEnabled() {
-		UE.getEditor('editor').setEnabled();
-		enableBtn();
-	}
-
-	function getText() {
-        //当你点击按钮时编辑区域已经失去了焦点，如果直接用getText将不会得到内容，所以要在选回来，然后取得内容
-        var range = UE.getEditor('editor').selection.getRange();
-        range.select();
-        var txt = UE.getEditor('editor').selection.getText();
-        alert(txt)
-    }
-
-    function getContentTxt() {
-    	var arr = [];
-    	arr.push("使用editor.getContentTxt()方法可以获得编辑器的纯文本内容");
-    	arr.push("编辑器的纯文本内容为：");
-    	arr.push(UE.getEditor('editor').getContentTxt());
-    	alert(arr.join("\n"));
-    }
-    function hasContent() {
-    	var arr = [];
-    	arr.push("使用editor.hasContents()方法判断编辑器里是否有内容");
-    	arr.push("判断结果为：");
-    	arr.push(UE.getEditor('editor').hasContents());
-    	alert(arr.join("\n"));
-    }
-    function setFocus() {
-    	UE.getEditor('editor').focus();
-    }
-    function deleteEditor() {
-    	disableBtn();
-    	UE.getEditor('editor').destroy();
-    }
-    function disableBtn(str) {
-    	var div = document.getElementById('btns');
-    	var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
-    	for (var i = 0, btn; btn = btns[i++];) {
-    		if (btn.id == str) {
-    			UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
-    		} else {
-    			btn.setAttribute("disabled", "true");
-    		}
-    	}
-    }
-    function enableBtn() {
-    	var div = document.getElementById('btns');
-    	var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
-    	for (var i = 0, btn; btn = btns[i++];) {
-    		UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
-    	}
-    }
-
-    function getLocalData () {
-    	alert(UE.getEditor('editor').execCommand( "getlocaldata" ));
-    }
-
-    function clearLocalData () {
-    	UE.getEditor('editor').execCommand( "clearlocaldata" );
-    	alert("已清空草稿箱")
-    }
-</script>
-
+	<button id="submit">发布回答</button>
+	<!--回答div结束-->
+	<!--添加jquery、question.js以及富文本自带的js引用开始-->
 	<script type="text/javascript" src="../js/jquery.js"></script>
 	<script type="text/javascript" src="../js/single-question.js"></script>
-	<script type="text/javascript" src="../js/dianzan.js">></script> <!--江燕 引用点赞js-->
+	<script type="text/javascript" src="../js/dianzan.js">></script>
+	<script type="text/javascript" charset="utf-8" src="ueditor.config.js"></script>
+	<script type="text/javascript" charset="utf-8" src="ueditor.all.min.js"> </script>
+	<script type="text/javascript" charset="utf-8" src="lang/zh-cn/zh-cn.js"></script>
+	<script type="text/javascript">
+		var ue = UE.getEditor('editor');
+		function isFocus(e){
+			alert(UE.getEditor('editor').isFocus());
+			UE.dom.domUtils.preventDefault(e)
+		}
+		function setblur(e){
+			UE.getEditor('editor').blur();
+			UE.dom.domUtils.preventDefault(e)
+		}
+		function insertHtml() {
+			var value = prompt('插入html代码', '');
+			UE.getEditor('editor').execCommand('insertHtml', value)
+		}
+		function createEditor() {
+			enableBtn();
+			UE.getEditor('editor');
+		}
+		function getAllHtml() {
+			alert(UE.getEditor('editor').getAllHtml())
+		}
+		function getContent() {
+			var arr = [];
+			arr.push("使用editor.getContent()方法可以获得编辑器的内容");
+			arr.push("内容为：");
+			arr.push(UE.getEditor('editor').getContent());
+			alert(arr.join("\n"));
+		}
+		function getPlainTxt() {
+			var arr = [];
+			arr.push("使用editor.getPlainTxt()方法可以获得编辑器的带格式的纯文本内容");
+			arr.push("内容为：");
+			arr.push(UE.getEditor('editor').getPlainTxt());
+			alert(arr.join('\n'))
+		}
+		function setContent(isAppendTo) {
+			var arr = [];
+			arr.push("使用editor.setContent('欢迎使用ueditor')方法可以设置编辑器的内容");
+			UE.getEditor('editor').setContent('欢迎使用ueditor', isAppendTo);
+			alert(arr.join("\n"));
+		}
+		function setDisabled() {
+			UE.getEditor('editor').setDisabled('fullscreen');
+			disableBtn("enable");
+		}
+
+		function setEnabled() {
+			UE.getEditor('editor').setEnabled();
+			enableBtn();
+		}
+
+		function getText() {
+	        var range = UE.getEditor('editor').selection.getRange();
+	        range.select();
+	        var txt = UE.getEditor('editor').selection.getText();
+	        alert(txt)
+	    }
+
+	    function getContentTxt() {
+	    	var arr = [];
+	    	arr.push("使用editor.getContentTxt()方法可以获得编辑器的纯文本内容");
+	    	arr.push("编辑器的纯文本内容为：");
+	    	arr.push(UE.getEditor('editor').getContentTxt());
+	    	alert(arr.join("\n"));
+	    }
+	    function hasContent() {
+	    	var arr = [];
+	    	arr.push("使用editor.hasContents()方法判断编辑器里是否有内容");
+	    	arr.push("判断结果为：");
+	    	arr.push(UE.getEditor('editor').hasContents());
+	    	alert(arr.join("\n"));
+	    }
+	    function setFocus() {
+	    	UE.getEditor('editor').focus();
+	    }
+	    function deleteEditor() {
+	    	disableBtn();
+	    	UE.getEditor('editor').destroy();
+	    }
+	    function disableBtn(str) {
+	    	var div = document.getElementById('btns');
+	    	var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+	    	for (var i = 0, btn; btn = btns[i++];) {
+	    		if (btn.id == str) {
+	    			UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+	    		} else {
+	    			btn.setAttribute("disabled", "true");
+	    		}
+	    	}
+	    }
+	    function enableBtn() {
+	    	var div = document.getElementById('btns');
+	    	var btns = UE.dom.domUtils.getElementsByTagName(div, "button");
+	    	for (var i = 0, btn; btn = btns[i++];) {
+	    		UE.dom.domUtils.removeAttributes(btn, ["disabled"]);
+	    	}
+	    }
+
+	    function getLocalData () {
+	    	alert(UE.getEditor('editor').execCommand( "getlocaldata" ));
+	    }
+
+	    function clearLocalData () {
+	    	UE.getEditor('editor').execCommand( "clearlocaldata" );
+	    	alert("已清空草稿箱")
+	    }
+	</script>
+	<!--添加jquery、question.js以及富文本自带的js引用结束-->
 </body>
 </html>

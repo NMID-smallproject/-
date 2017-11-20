@@ -6,14 +6,17 @@
 	<title>manager-infopage</title>
 </head>
 <body>
+	<!--顶栏开始-->
 	<div class="head">
 		<span id="title">重邮问答</span>
 		<span id="user-frontpage"><a href="./youke-front.html" >首页</a></span>
-		<span id="question"><a href="./question.html" target="_blank">提问</a></span>
+		<span id="question"><a href="./question.html">提问</a></span>
 		<input type="text" id="search" placeholder="搜索你感兴趣的内容">
 		<button id="search-submit" ><a href="">搜索</a></button>
 		<span id="sign-in"><a href="./sign-in.html">退出登录</a></span>
 	</div>
+	<!--顶栏结束-->
+	<!--个人信息开始-->
 	<div class="person-info">
 		<div class="person-photo">
 			<img src="../images/头像.png" id="person-photo-more">
@@ -27,12 +30,15 @@
 			<span id="sex">男</span>
 			<span id="xueyuan">计算机学院</span>
 			<span id="xuehao">2015212086</span>
-			<span id="person-email">Email: 2222222@22.com</span>
-			<span id="person-tel">Tel: 1234566798</span>
+			<span id="person-email">2222222@22.com</span>
+			<span style="float: left;">Tel:</span><span id="person-tel">1234566798</span>
 		</div>
-		<button id="editor">编辑个人信息</button>
+		<div id="buttons">
+			<button id="editor">编辑个人信息</button>
+		</div>
 	</div>
-	
+	<!--个人信息结束-->
 	<script type="text/javascript" src="../js/jquery.js"></script>
+	<script type="text/javascript" src="../js/user-infopage.js"></script>
 </body>
 </html>

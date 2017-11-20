@@ -7,16 +7,16 @@ body {
 	background-color: #f4f7ed;
 	font-family: Microsoft YaHei;
 }
-
 .head {
-	min-width: 1280px;
-	background-color: #00425c;
-	height: 40px;
-	border-radius: 10px;
-	color: #fbfcfe;
-	font-size: 20px;
 	padding-top: 10px;
 	padding-left: 10px;
+	min-width: 1280px;
+	height: 40px;
+	color: #fbfcfe;
+	font-size: 20px;
+	border-radius: 10px;
+	background-color: #00425c;
+	
 }
 #title {
 	margin-left: 20px;
@@ -30,33 +30,32 @@ body {
 	padding-right: 40px;
 }
 #title,#youke-frontpage a,#question a,#sign-in a,#log-in a {
-	text-decoration: none;
 	font-size: 20px;
 	color: white;
+	text-decoration: none;
 }
 #search {
-	border-radius: 4px;
-	border: 1px solid #aaa;
+	margin-left: 400px;
 	width: 220px;
 	height: 30px;
-	margin-left: 400px;
 	font-family: Microsoft YaHei;
 	font-size: 15px;
+	border-radius: 4px;
+	border: 1px solid #aaa;
 }
 #search-submit {
+	margin-left: 20px;
 	height: 30px;
 	width: 60px;
 	background-color: white;
 	border-radius: 4px;
 	border: 1px solid #aaa;
-	margin-left: 20px;
-
 }
 #search-submit a {
-	text-decoration:none;
 	font-size: 20px;
 	font-family: Microsoft YaHei;
 	color: black;
+	text-decoration:none;
 }
 .tag {
 	margin: 15px 150px 0 100px;
@@ -64,14 +63,14 @@ body {
 	width: 1080px;
 }
 .tag span {
-	display: inline-block;
-	color: white;
+	margin-left: 50px;
 	height: 30px;
 	width: 80px;
 	line-height: 30px;
 	text-align: center;
+	color: white;
+	display: inline-block;
 	background-color: #4586ba;
-	margin-left: 50px;
 	border-radius: 10px;
 	border: 1px solid #aaa;
 	cursor: pointer;
@@ -82,11 +81,11 @@ body {
 	box-shadow: 0 5px 15px rgba(0,0,0,0.05);
 }
 #delete {
-	width: 80px;
-	height: 25px;
-	float: right;
 	margin-right: 80px;
 	margin-top: 5px;
+	float: right;
+	width: 80px;
+	height: 25px;
 	background-color: #4586ba;
 	color: white;
 	border-radius: 4px;
@@ -145,13 +144,13 @@ body {
 }
 
 .paper {
+	margin: 50px auto;
 	width: 510px;
 	height: 40px;
-	margin: 50px auto;
 }
 .paper a {
-	text-decoration: none;
 	padding: 5px;
+	text-decoration: none;
 }
 .pages {
 	display: none;
@@ -160,9 +159,9 @@ body {
 	display: inline-block;
 }
 .pages-list ul li {
-	border: 1px solid #e5e5e5;
 	width: 25px;
 	height: 25px;
+	border: 1px solid #e5e5e5;
 	list-style-type: none;
 	display: inline-block;
 }
@@ -171,9 +170,9 @@ body {
 	font-size: 13px;
 }
 .page-input input {
+	margin: 3px;
 	width: 18px;
 	height: 15px;
-	margin: 3px;
 }
 .onclickpage {
 	color: #d13030;
